@@ -4,7 +4,7 @@ import { add } from "@api/add";
 import { AddRequest } from "@request/addRequest";
 
 const app = express();
-const port = 8080;
+const port = 3000;
 
 app.use(
   bodyParser.urlencoded({
